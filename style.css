@@ -1,0 +1,121 @@
+body {
+    margin: 1%;
+    padding: 0;
+}
+h3 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    /* background-image: url('images/bk.jpg'); */
+    background-size: cover;
+    background-position: center;
+    /*
+     height: 100vh; 
+     display: flex;  
+    align-items: center;
+    justify-content: center; */
+    height: 20vh;
+    text-align: center;
+    font-size: 150%;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(255, 255, 255); 
+}
+.background-image {
+    background-image: url('images/1644067.jpg');
+    background-color: rgba(0, 81, 255, 0.8);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image1 {
+    background-image: url('images/1411291.jpg');
+    background-color: rgba(0, 81, 255, 0.8);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    background-color: rgba(248, 244, 242, 0.8);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: rgba(235, 237, 238, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    margin-bottom: px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0400ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 70%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+select {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+section {
+    background-color:#ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.about {
+    height: 35vh;
+    width: 140vh;
+    background: linear-gradient(9deg, #ffffff, #dceef7);
+    /* background-color: #f1f8f2; */
+    display: inline-block;
+    justify-content: center;
+    border-radius: 20px;
+}
+.b1 {
+    background: linear-gradient(9deg, #e8f003, #fc0000);
+    /* background-color: #ff0000; */
+    color: white;
+    padding: 10px;
+    width: 15%;
+    height: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
